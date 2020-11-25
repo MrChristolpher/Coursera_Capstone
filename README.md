@@ -9,5 +9,6 @@ Week 1:
 3) Import the Numpy library as np.
 4) Print the following the statement: Hello Capstone Project Course!
 
+Data: 11/25/2020
 Week2:
 
