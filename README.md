@@ -13,6 +13,7 @@ To begin our comparison we will extract information from data online. The data n
 This information and their corresponding coordinates for both the cities will be extracted from their respective Wikipedia pages. If there is no coordinates (as some wiki list do not), I will create a CSV file from the list obtained and use a Geocode program to extrapulate the coordinates. This will go into the CSV file and uploaded to both kaggle and github. This will be done in order to save on coding real estate and and the amount of request needed just to get coordinates. It will also make replication of the information easier and allows for others to use the information for their own projects in the future.
 
 [Houston Wiki](https://en.wikipedia.org/wiki/List_of_Houston_neighborhoods)
+
 [Dallas Wiki](https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Dallas)
 
 Also, I will take advantage of using FourSquare' free location API and obtain the venue list for the respective cities. The neighborhoods will be categorized by top 10 venues and then a k-means clustering algorithm will be done in order to start visualizing the data collected. 
